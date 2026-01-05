@@ -871,7 +871,7 @@ export default function App() {
                     <tr key={r.id}>
                       <td>
                         <select
-                          className="input"
+                          className="input select"
                           value={r.serviceType}
                           onChange={(e) =>
                             handleServiceChange(r.id, e.target.value)

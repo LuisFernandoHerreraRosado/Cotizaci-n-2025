@@ -637,3 +637,11 @@ body {
   display: flex;
   justify-content: flex-end;
 }
+
+.select {
+  color: white;
+}
+
+.select option {
+  color: black;
+}
